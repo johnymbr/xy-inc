@@ -26,6 +26,17 @@ public class Poi {
 
 	private Long y;
 
+	public Poi() {
+
+	}
+
+	public Poi(String name, Long x, Long y) {
+
+		this.name = name;
+		this.x = x;
+		this.y = y;
+	}
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	public Long getId() {

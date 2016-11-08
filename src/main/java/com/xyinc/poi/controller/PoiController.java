@@ -1,34 +1,34 @@
 package com.xyinc.poi.controller;
 
 import java.util.Collection;
-import java.util.Collections;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.xyinc.poi.entity.Poi;
-import com.xyinc.poi.repository.PoiRepository;
+import com.xyinc.poi.service.PoiService;
 
 @RestController
 @RequestMapping("/poi")
 public class PoiController {
 
 	@Autowired
-	private PoiRepository repository;
+	private PoiService service;
 
 	@RequestMapping("/findAll")
 	public Collection<Poi> findAll() {
 
-		return (Collection<Poi>) this.repository.findAll();
+		return (Collection<Poi>) this.service.findAll();
 	}
 
 	@RequestMapping(method = RequestMethod.POST)
-	public Poi save(Poi poi) {
+	public Poi save(@RequestBody Poi poi) {
 
-		return this.repository.save(poi);
+		return this.service.save(poi);
 	}
 
 	@RequestMapping("/findPoisNearTo")
@@ -36,10 +36,6 @@ public class PoiController {
 			@RequestParam(value = "y", required = true) Long y,
 			@RequestParam(value = "maxDistance", required = false, defaultValue = "0") Long maxDistance) {
 
-		if ((x == null || x < 0) || (y == null || y < 0) || (maxDistance != null && maxDistance < 0)) {
-			return Collections.emptyList();
-		}
-
-		return (Collection<Poi>) this.repository.findAll();
+		return this.service.findPoisNearTo(x, y, maxDistance);
 	}
 }
