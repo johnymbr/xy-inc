@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.xyinc.poi.controller.PoiControllerTest" time="0.81" tests="7" errors="0" skipped="0" failures="0">
+<testsuite name="com.xyinc.poi.controller.PoiControllerTest" time="0.902" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/opt/java/jdk1.8.0_60/jre/lib/amd64"/>
@@ -59,11 +59,11 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="savePoiWithCoordXLTZero" classname="com.xyinc.poi.controller.PoiControllerTest" time="0.395"/>
-  <testcase name="savePoiWithCoordYLTZero" classname="com.xyinc.poi.controller.PoiControllerTest" time="0.031"/>
-  <testcase name="findPoisNearToTest" classname="com.xyinc.poi.controller.PoiControllerTest" time="0.291"/>
-  <testcase name="findAllTest" classname="com.xyinc.poi.controller.PoiControllerTest" time="0.018"/>
-  <testcase name="savePoiTest" classname="com.xyinc.poi.controller.PoiControllerTest" time="0.017"/>
-  <testcase name="savePoiWithouCoordX" classname="com.xyinc.poi.controller.PoiControllerTest" time="0.028"/>
-  <testcase name="savePoiWithouCoordY" classname="com.xyinc.poi.controller.PoiControllerTest" time="0.03"/>
+  <testcase name="savePoiWithCoordXLTZero" classname="com.xyinc.poi.controller.PoiControllerTest" time="0.472"/>
+  <testcase name="savePoiWithCoordYLTZero" classname="com.xyinc.poi.controller.PoiControllerTest" time="0.037"/>
+  <testcase name="findPoisNearToTest" classname="com.xyinc.poi.controller.PoiControllerTest" time="0.294"/>
+  <testcase name="findAllTest" classname="com.xyinc.poi.controller.PoiControllerTest" time="0.011"/>
+  <testcase name="savePoiTest" classname="com.xyinc.poi.controller.PoiControllerTest" time="0.031"/>
+  <testcase name="savePoiWithouCoordX" classname="com.xyinc.poi.controller.PoiControllerTest" time="0.02"/>
+  <testcase name="savePoiWithouCoordY" classname="com.xyinc.poi.controller.PoiControllerTest" time="0.037"/>
 </testsuite>
