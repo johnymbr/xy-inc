@@ -17,7 +17,10 @@ O comando acima irá construir o projeto e iniciar o container Tomcat embedded n
 java -jar target/xy-inc-poi.jar
 ```
 
-Para realizar os testes estou disponibilizando uma coleção do Postman, caso queiram importar a mesma nessa ferramenta. Abaixo seguem chamadaso utilizando o curl para os testes:
+Para realizar os testes estou disponibilizando uma coleção do Postman, caso queiram importar a mesma nessa ferramenta. 
+Arquivo: **xy-inc.postman_collection.json**
+
+Abaixo seguem chamadaso utilizando o curl para os testes:
 
 **findAll**
 - curl http://localhost:8080/poi/findAll
