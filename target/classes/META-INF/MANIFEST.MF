@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: poi
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: jmarques
+Implementation-Vendor-Id: com.xy-inc
+Build-Jdk: 1.8.0_60
+Implementation-URL: http://projects.spring.io/spring-boot/poi/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

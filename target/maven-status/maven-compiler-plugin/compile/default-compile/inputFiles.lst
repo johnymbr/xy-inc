@@ -1,0 +1,5 @@
+/opt/repositories/xy-inc/src/main/java/com/xyinc/poi/repository/PoiRepository.java
+/opt/repositories/xy-inc/src/main/java/com/xyinc/poi/entity/Poi.java
+/opt/repositories/xy-inc/src/main/java/com/xyinc/poi/Application.java
+/opt/repositories/xy-inc/src/main/java/com/xyinc/poi/controller/PoiController.java
+/opt/repositories/xy-inc/src/main/java/com/xyinc/poi/service/PoiService.java

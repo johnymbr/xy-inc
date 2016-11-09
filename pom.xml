@@ -37,6 +37,7 @@
 
 
 	<build>
+		<finalName>xy-inc-poi</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

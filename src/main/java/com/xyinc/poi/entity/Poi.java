@@ -59,6 +59,7 @@ public class Poi {
 	}
 
 	@Column(name = "x")
+	@NotNull
 	@Min(0)
 	public Long getX() {
 		return x;
@@ -69,6 +70,7 @@ public class Poi {
 	}
 
 	@Column(name = "y")
+	@NotNull
 	@Min(0)
 	public Long getY() {
 		return y;

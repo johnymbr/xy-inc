@@ -1,0 +1,5 @@
+com/xyinc/poi/repository/PoiRepository.class
+com/xyinc/poi/service/PoiService.class
+com/xyinc/poi/entity/Poi.class
+com/xyinc/poi/controller/PoiController.class
+com/xyinc/poi/Application.class
